@@ -1,8 +1,8 @@
 import { Metadata } from "next";
-import { ClerkProvider } from "@clerk/nextjs";
+import { ClerkProvider } from "@clerk/nextjs"
 import { Inter } from "next/font/google";
 
-import '../global.css';
+// import '../'
 
 export const metadata: Metadata = {
     title: 'Threads',
@@ -21,7 +21,7 @@ export default function RootLayout(
         }) {
     return (
         <ClerkProvider>
-            <body className={`${inter.className} bg-dark-1 }>
+            <body className={`${inter.className} bg-dark-1` }>
                 {children}
             </body>
         </ClerkProvider>
