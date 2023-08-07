@@ -50,6 +50,9 @@ dependencies:
   lucide-react:
     specifier: ^0.264.0
     version: 0.264.0(react@18.2.0)
+  mongodb:
+    specifier: ^5.7.0
+    version: 5.7.0
   mongoose:
     specifier: ^7.4.2
     version: 7.4.2
